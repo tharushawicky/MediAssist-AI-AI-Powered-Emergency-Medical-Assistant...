@@ -14,7 +14,14 @@ class GeminiService:
     """Service wrapper for interacting with Google Gemini API with fallback capabilities."""
 
     def __init__(self, api_key: str | None = None, model_name: str = "gemini-1.5-flash"):
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        st_key = None
+        try:
+            import streamlit as st
+            st_key = st.secrets.get("GEMINI_API_KEY") if hasattr(st, "secrets") else None
+        except Exception:
+            st_key = None
+
+        self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or st_key
         self.model_name = model_name
         self.client = None
         self.is_available = False
