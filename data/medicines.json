@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Paracetamol (Acetaminophen)",
+    "category": "Analgesic & Antipyretic",
+    "uses": "Temporary relief of mild to moderate pain (headache, muscle ache, toothache) and reduction of fever.",
+    "common_side_effects": [
+      "Nausea (uncommon at recommended doses)",
+      "Skin rash or allergic reaction (rare)",
+      "Liver toxicity (if taken in excess of recommended limit)"
+    ],
+    "precautions": [
+      "Do NOT exceed 4,000 mg (4g) in a 24-hour period.",
+      "Avoid alcohol while taking paracetamol to protect liver function.",
+      "Check ingredients of cold & flu combinations to prevent double dosing."
+    ],
+    "interactions": "Warfarin (long-term heavy use may increase bleeding risk), alcohol, other acetaminophen-containing medications.",
+    "dosage_warning": "Consult a physician or pharmacist for proper individual dosage based on age, weight, and health condition."
+  },
+  {
+    "name": "Ibuprofen",
+    "category": "Nonsteroidal Anti-inflammatory Drug (NSAID)",
+    "uses": "Relief of pain, reduction of inflammation, and management of fever, arthritis, and menstrual cramps.",
+    "common_side_effects": [
+      "Stomach upset or heart burn",
+      "Nausea and mild dizziness",
+      "Increased bleeding tendency"
+    ],
+    "precautions": [
+      "Take with food or milk to minimize stomach irritation.",
+      "Avoid if you have a history of stomach ulcers, severe heart failure, or kidney disease.",
+      "Do NOT take during the third trimester of pregnancy unless prescribed by a doctor."
+    ],
+    "interactions": "Aspirin, blood thinners (warfarin), antihypertensives, ACE inhibitors, corticosteroids.",
+    "dosage_warning": "Consult a healthcare professional for age and weight appropriate dosing instructions."
+  },
+  {
+    "name": "Amoxicillin",
+    "category": "Antibiotic (Penicillin Derivative)",
+    "uses": "Treatment of specific bacterial infections such as ear infections, pneumonia, bronchitis, and urinary tract infections.",
+    "common_side_effects": [
+      "Diarrhea and loose stools",
+      "Nausea and vomiting",
+      "Mild skin rash"
+    ],
+    "precautions": [
+      "Requires a valid prescription from a licensed healthcare provider.",
+      "Inform doctor immediately if you have a known penicillin allergy.",
+      "Complete the entire prescribed course even if symptoms improve early."
+    ],
+    "interactions": "Oral contraceptives (may reduce efficacy), probenecid, allopurinol.",
+    "dosage_warning": "Prescription medication only. Dosage must be strictly prescribed by a doctor."
+  },
+  {
+    "name": "Cetirizine",
+    "category": "Antihistamine (Second Generation)",
+    "uses": "Relief of allergy symptoms such as sneezing, runny nose, watery eyes, hives, and itchy skin.",
+    "common_side_effects": [
+      "Mild drowsiness or tiredness",
+      "Dry mouth",
+      "Headache"
+    ],
+    "precautions": [
+      "Use caution when driving or operating machinery until you know how cetirizine affects you.",
+      "Avoid excessive alcohol consumption while taking antihistamines."
+    ],
+    "interactions": "Sedatives, tranquilizers, alcohol.",
+    "dosage_warning": "Follow product package insert or consult a healthcare provider."
+  },
+  {
+    "name": "Omeprazole",
+    "category": "Proton Pump Inhibitor (PPI)",
+    "uses": "Treatment of acid reflux, gastroesophageal reflux disease (GERD), heart burn, and stomach ulcers.",
+    "common_side_effects": [
+      "Headache",
+      "Abdominal pain or flatulence",
+      "Nausea or diarrhea"
+    ],
+    "precautions": [
+      "Usually taken before a meal (typically breakfast).",
+      "Long-term use should be monitored by a doctor due to potential vitamin B12 or magnesium deficiency."
+    ],
+    "interactions": "Clopidogrel, antiretroviral drugs, digoxin, iron supplements.",
+    "dosage_warning": "Consult a physician or pharmacist for medical advice on proper usage duration."
+  },
+  {
+    "name": "Metformin",
+    "category": "Antidiabetic (Biguanide)",
+    "uses": "Management of type 2 diabetes mellitus to improve blood glucose control.",
+    "common_side_effects": [
+      "Nausea, vomiting, and diarrhea",
+      "Stomach cramps and loss of appetite",
+      "Metallic taste in mouth"
+    ],
+    "precautions": [
+      "Take with meals to reduce stomach upset.",
+      "Monitor kidney function regularly.",
+      "Avoid excessive alcohol consumption to prevent lactic acidosis."
+    ],
+    "interactions": "Corticosteroids, diuretics, contrast agents used in imaging procedures.",
+    "dosage_warning": "Prescription drug. Must be taken under strict medical supervision."
+  },
+  {
+    "name": "Aspirin (Acetylsalicylic Acid)",
+    "category": "NSAID & Antiplatelet Agent",
+    "uses": "Pain relief, anti-inflammatory, and low-dose prevention of cardiovascular events under medical supervision.",
+    "common_side_effects": [
+      "Stomach distress, heartburn",
+      "Increased bleeding and bruising"
+    ],
+    "precautions": [
+      "Do NOT give aspirin to children or teenagers recovering from viral infections due to Reye's syndrome risk.",
+      "Avoid taking on an empty stomach."
+    ],
+    "interactions": "Other NSAIDs, blood thinners, alcohol, SSRIs.",
+    "dosage_warning": "Do not self-prescribe aspirin for heart conditions without consulting a cardiologist."
+  }
+]

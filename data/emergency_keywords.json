@@ -1,0 +1,47 @@
+{
+  "high_severity_keywords": [
+    "chest pain",
+    "difficulty breathing",
+    "shortness of breath",
+    "stroke",
+    "facial drooping",
+    "arm weakness",
+    "slurred speech",
+    "heavy bleeding",
+    "uncontrolled bleeding",
+    "unconscious",
+    "loss of consciousness",
+    "severe allergic reaction",
+    "anaphylaxis",
+    "severe head injury",
+    "cardiac arrest",
+    "heart attack",
+    "seizure",
+    "blue lips",
+    "coughing up blood",
+    "poisoning"
+  ],
+  "medium_severity_keywords": [
+    "deep cut",
+    "high fever",
+    "persistent vomiting",
+    "severe abdominal pain",
+    "burn",
+    "fracture",
+    "broken bone",
+    "snake bite",
+    "dislocation",
+    "dizziness"
+  ],
+  "low_severity_keywords": [
+    "mild headache",
+    "sore throat",
+    "runny nose",
+    "minor cut",
+    "mild fever",
+    "muscle ache",
+    "dry skin",
+    "cough",
+    "fatigue"
+  ]
+}

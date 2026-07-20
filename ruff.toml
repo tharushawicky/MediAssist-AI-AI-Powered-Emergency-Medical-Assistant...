@@ -1,0 +1,22 @@
+# Ruff configuration for MediAssist AI
+target-version = "py312"
+line-length = 120
+
+[lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # Pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "E501", # line too long (handled by formatter)
+    "E402", # module level import not at top (required for Streamlit set_page_config)
+    "W291", # trailing whitespace
+    "W293", # blank line contains whitespace
+    "B007", # loop control variable not used
+]
+
+[lint.isort]
+combine-as-imports = true

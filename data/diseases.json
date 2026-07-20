@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "Common Cold (Viral Upper Respiratory Infection)",
+    "common_symptoms": ["runny nose", "sore throat", "cough", "mild headache", "sneezing", "low fever"],
+    "urgency": "LOW",
+    "general_advice": "Rest, stay hydrated, use saline nasal spray, and monitor symptoms. Typically resolves in 7-10 days."
+  },
+  {
+    "condition": "Influenza (Flu)",
+    "common_symptoms": ["high fever", "body aches", "chills", "fatigue", "dry cough", "headache"],
+    "urgency": "MEDIUM",
+    "general_advice": "Rest, fluids, isolate to prevent spread. Consult a physician if high fever persists or breathing becomes difficult."
+  },
+  {
+    "condition": "Gastroenteritis (Stomach Flu)",
+    "common_symptoms": ["nausea", "vomiting", "watery diarrhea", "abdominal cramps", "mild fever"],
+    "urgency": "MEDIUM",
+    "general_advice": "Maintain oral rehydration with electrolyte solutions. Seek care if unable to keep fluids down for over 24 hours."
+  },
+  {
+    "condition": "Migraine Headache",
+    "common_symptoms": ["throbbing severe headache", "sensitivity to light", "sensitivity to sound", "nausea", "aura"],
+    "urgency": "MEDIUM",
+    "general_advice": "Rest in a quiet, dark room. Stay hydrated. Seek urgent evaluation if it is the 'worst headache of your life' or sudden onset."
+  },
+  {
+    "condition": "Acute Bronchitis",
+    "common_symptoms": ["persistent cough", "mucus production", "chest discomfort", "mild fatigue"],
+    "urgency": "MEDIUM",
+    "general_advice": "Use humidifiers, rest, drink warm fluids. Seek medical evaluation if coughing up blood or short of breath."
+  },
+  {
+    "condition": "Hypertension (High Blood Pressure)",
+    "common_symptoms": ["often asymptomatic", "occasional morning headache", "dizziness"],
+    "urgency": "MEDIUM",
+    "general_advice": "Requires routine medical monitoring, low-sodium diet, lifestyle management, and adherence to prescribed medications."
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "burn": {
+    "title": "Burn First Aid",
+    "severity": "MEDIUM",
+    "steps": [
+      "Cool the burn immediately under cool running water for at least 20 minutes.",
+      "Remove clothing or jewelry around the burned area unless stuck to the skin.",
+      "Cover the burn loosely with a clean, sterile, non-fluffy bandage or plastic wrap.",
+      "Keep the patient warm and comfortable."
+    ],
+    "warnings": [
+      "Do NOT apply ice, iced water, butter, grease, or ointments directly to a burn.",
+      "Do NOT break blisters.",
+      "Do NOT apply fluffy cotton wool directly to the burn."
+    ],
+    "when_to_call_emergency": "Call emergency services immediately if the burn is larger than the palm of the hand, covers the face, hands, or groin, involves chemical or electrical sources, or if the victim is a child or elderly person."
+  },
+  "snake_bite": {
+    "title": "Snake Bite First Aid",
+    "severity": "HIGH",
+    "steps": [
+      "Keep the patient calm and completely still. Movement causes venom to spread faster.",
+      "Immobilize the affected limb with a splint or sling at or below heart level.",
+      "Remove tight clothing, rings, or watches before swelling begins.",
+      "Clean the wound gently with water, but do not flush vigorously."
+    ],
+    "warnings": [
+      "Do NOT cut or suck the wound.",
+      "Do NOT apply a tourniquet or ice.",
+      "Do NOT allow the victim to walk or exert themselves."
+    ],
+    "when_to_call_emergency": "Always call emergency services immediately for snake bites. Identify the snake appearance from a safe distance if possible."
+  },
+  "heavy_bleeding": {
+    "title": "Severe Bleeding Control",
+    "severity": "HIGH",
+    "steps": [
+      "Apply direct pressure to the wound using a clean cloth, towel, or sterile dressing.",
+      "Maintain continuous pressure without lifting the cloth to check.",
+      "Elevate the injured limb above the heart level if possible and if no fracture is suspected.",
+      "Have the victim lie down and keep them warm to prevent shock."
+    ],
+    "warnings": [
+      "Do NOT remove embedded objects from the wound; pad around them.",
+      "Do NOT remove saturated dressings; add more layers on top."
+    ],
+    "when_to_call_emergency": "Call emergency services immediately if bleeding is spurting, does not stop after 10 minutes of continuous direct pressure, or if the victim feels faint."
+  },
+  "fracture": {
+    "title": "Bone Fracture / Sprain",
+    "severity": "MEDIUM",
+    "steps": [
+      "Immobilize the injured area. Do not attempt to realign the bone.",
+      "Apply an ice pack wrapped in a cloth for 15-20 minutes to reduce swelling.",
+      "Support the limb with a cushion or homemade sling.",
+      "Treat for shock if the patient feels lightheaded."
+    ],
+    "warnings": [
+      "Do NOT massage or force movement in the injured joint or bone.",
+      "Do NOT apply ice directly to bare skin."
+    ],
+    "when_to_call_emergency": "Call emergency services if the bone has pierced the skin (open fracture), if the limb is numb/pale, or if there is suspected neck/spinal trauma."
+  },
+  "poisoning": {
+    "title": "Poisoning Emergency",
+    "severity": "HIGH",
+    "steps": [
+      "Try to identify the poisonous substance, container, or chemical.",
+      "If poison was swallowed, brush off excess dry chemical from lips/skin.",
+      "If chemical contact on skin/eyes, flush with clean running water for 15-20 minutes.",
+      "Keep the poison container handy for emergency responders."
+    ],
+    "warnings": [
+      "Do NOT induce vomiting unless explicitly instructed by Poison Control or a doctor.",
+      "Do NOT give anything by mouth if the victim is unconscious or having seizures."
+    ],
+    "when_to_call_emergency": "Call Poison Control or Emergency Services immediately. Have substance details, patient age, and estimated quantity ready."
+  },
+  "cpr_guidance": {
+    "title": "CPR Guidance (Adult Hands-Only)",
+    "severity": "HIGH",
+    "steps": [
+      "Check responsiveness: Shake shoulders gently and ask loudly 'Are you okay?'.",
+      "If unresponsive and not breathing normally, call emergency services immediately.",
+      "Place heel of one hand in center of chest, place other hand on top and interlock fingers.",
+      "Compress chest hard and fast at 100-120 compressions per minute (to the beat of 'Stayin' Alive').",
+      "Allow chest to recoil fully between compressions. Continue until help arrives."
+    ],
+    "warnings": [
+      "Do NOT interrupt chest compressions for more than 10 seconds.",
+      "Do NOT perform CPR if the victim is conscious and breathing normally."
+    ],
+    "when_to_call_emergency": "Call emergency services IMMEDIATELY before starting CPR or assign someone nearby to call."
+  },
+  "choking": {
+    "title": "Choking First Aid (Heimlich Maneuver)",
+    "severity": "HIGH",
+    "steps": [
+      "Ask 'Are you choking? Can you speak?'. If they can cough forcibly, encourage coughing.",
+      "If unable to breathe or speak: Stand behind the person, lean them slightly forward.",
+      "Give 5 sharp back blows between shoulder blades with heel of your hand.",
+      "If unblocked, perform 5 abdominal thrusts: place fist above navel, grasp with other hand, pull inward and upward.",
+      "Alternate 5 back blows and 5 abdominal thrusts until object is expelled."
+    ],
+    "warnings": [
+      "Do NOT perform abdominal thrusts on infants under 1 year old (use back blows and chest thrusts).",
+      "Do NOT perform blind finger sweeps in mouth."
+    ],
+    "when_to_call_emergency": "Call emergency services immediately if victim loses consciousness."
+  },
+  "heat_stroke": {
+    "title": "Heat Stroke First Aid",
+    "severity": "HIGH",
+    "steps": [
+      "Move victim to a cool, shaded, or air-conditioned area immediately.",
+      "Remove excess heavy clothing.",
+      "Cool body rapidly using cool wet cloths, cold water spray, or ice packs under armpits and neck.",
+      "If conscious, sip cool water slowly."
+    ],
+    "warnings": [
+      "Do NOT give ice-cold drinks to a severely confused victim.",
+      "Do NOT give aspirin or acetaminophen."
+    ],
+    "when_to_call_emergency": "Call emergency services immediately if temperature is very high, skin is dry/hot, or victim is confused/unconscious."
+  }
+}

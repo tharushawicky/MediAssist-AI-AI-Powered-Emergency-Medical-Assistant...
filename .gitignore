@@ -1,0 +1,21 @@
+# Environment variables & secrets
+.env
+*.env
+
+# SQLite Database
+*.db
+mediassist_chat.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Virtual Environment
+venv/
+env/
