@@ -287,17 +287,22 @@ elif st.session_state.current_page == "🤒 Symptom Checker":
             # Display Analysis Results
             col_a, col_b = st.columns(2)
             with col_a:
-                st.markdown("#### 💡 Educational Possible Conditions")
+                st.markdown("#### 💡 Educational Potential Conditions")
                 for cond in symptom_res.possible_conditions:
                     st.markdown(f"- **{cond}**")
 
             with col_b:
-                st.markdown("#### 📋 Recommended Next Steps")
+                st.markdown("#### 📋 Recommended Action Plan")
                 for step in symptom_res.recommended_next_steps:
                     st.markdown(f"1. {step}")
 
+            # In-depth AI Analysis Expander
+            if symptom_res.detailed_ai_analysis:
+                with st.expander("🤖 Detailed Gemini AI Clinical Assessment & Rationale", expanded=True):
+                    st.markdown(symptom_res.detailed_ai_analysis)
+
             if symptom_res.questions_for_clarification:
-                with st.expander("❓ Clarifying Questions to Discuss with Doctor"):
+                with st.expander("❓ Questions to Discuss with Doctor"):
                     for q in symptom_res.questions_for_clarification:
                         st.write(f"- {q}")
 
